@@ -4,3 +4,4 @@ Repositório contendo:
 - Arquivo CSS
 - Link para Canva
 - Arquivos de imagens
+- (Javascript já já...)
