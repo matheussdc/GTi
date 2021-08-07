@@ -1,24 +1,46 @@
-h1{
-text-align: center;
-font-family: verdana;
+html {
+	scroll-behavior: smooth;
 }
-body{
-  background-color: rgba(139, 0, 139, 0.3);
-	
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 0px;
+	background-color: lightgray;
+	width: 100%;
 }
-p{
-  border-left: 5px solid dodgerblue;
-  font-family: courier;
-  color: darkblue;
-	background-color: gray;
+li {
+	display: inline;
+	margin: 5px;
 }
-a:hover {
-	color: white;
+li:last-child a{
+	color: red;
 }
-button {
-transition: 2s;
+img.logo_ini{
+	height: 32px;
+	width: 32px;
+	/*position: relative;
+	bottom: 50px;*/
 }
-button:hover {
-	color: white;
-	background-color: red;
+div.slider {
+	text-align: center;
+	width: 100%;
+	height: 475px;
+	background-image: url('https://i1.wp.com/pinkandpineapple.com/wp-content/uploads/2020/04/Canva-Person-In-White-Long-Sleeve-Shirt-Using-Macbook-scaled.jpg?fit=960%2C477&ssl=1');
+}
+button.slider_botao{
+	background-color: #008037;
+	color: #fff;
+	border: 2px solid #008037;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.slider_botao:hover {
+	background-color: #fff;
+	color: #000;
+	border-color: #008037;
+}
+div img {
+	width: 100%;
 }
