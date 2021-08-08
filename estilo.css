@@ -5,15 +5,28 @@ ul {
 	list-style-type: none;
 	overflow: hidden;
 	padding-left: 0px;
-	background-color: lightgray;
+	background-color: #725f45;
 	width: 100%;
 }
 li {
+	font-size: 26px;
 	display: inline;
 	margin: 5px;
+	padding-bottom: 10px;
+}
+li a {
+	color: #fff;
+	text-decoration: none;
 }
 li:last-child a{
-	color: red;
+	position: relative;
+	top: 4px;
+	background-color: #9c8344;
+	border-radius: 5px;
+	margin-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 1px;
 }
 img.logo_ini{
 	height: 32px;
@@ -21,18 +34,35 @@ img.logo_ini{
 	/*position: relative;
 	bottom: 50px;*/
 }
+.pag_atual {
+	color: black;
+	background-color: #d3ca97;
+	padding: 13px 0px;
+}
+h1, h2 {
+	color: #725f45;
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
 div.slider {
 	text-align: center;
 	width: 100%;
-	height: 475px;
+	height: 675px;
+	background-size: cover ;
 	background-image: url('https://i1.wp.com/pinkandpineapple.com/wp-content/uploads/2020/04/Canva-Person-In-White-Long-Sleeve-Shirt-Using-Macbook-scaled.jpg?fit=960%2C477&ssl=1');
 }
+h1 {
+	
+	font-family: 'Roboto', sans-serif;
+}
 button.slider_botao{
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
 	background-color: #008037;
 	color: #fff;
 	border: 2px solid #008037;
 	border-radius: 5px;
 	padding: 10px;
+	margin-top: 250px;
 	cursor: pointer;
 	transition: 0.5s;
 }
@@ -41,6 +71,29 @@ button.slider_botao{
 	color: #000;
 	border-color: #008037;
 }
-div img {
-	width: 100%;
+#vantagens {
+	padding-top: 25px;
+	height: 675px;
+	background-size: 1360px;
+	background-image: url('https://mindmoodlife.files.wordpress.com/2020/06/pexels-photo-316466.jpeg');
+}
+.block_1 {
+	background-color: #d2ca97;
+	box-shadow: 5px 5px;
+	margin-right: 100px;
+	padding-left: 50px;
+}
+.block_1 p{
+	font-size: 24px;
+}
+.block_1 img {
+	height: 128px;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 70px;
+}
+.block_hd {
+	font-size: 25px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 }
