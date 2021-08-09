@@ -12,6 +12,7 @@ ul {
 	list-style-type: none;
 	overflow: hidden;
 	padding-left: 0px;
+	margin: 0;
 	background-color: #725f45;
 	width: 100%;
 }
@@ -50,6 +51,8 @@ h1,
 h2 {
 	color: #725f45;
 	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+	margin-top: 0;
+	padding-top: 40px;
 }
 div.slider {
 	text-align: center;
@@ -70,7 +73,7 @@ button.slider_botao {
 	border: 2px solid #008037;
 	border-radius: 5px;
 	padding: 10px;
-	margin-top: 250px;
+	margin-top: 70px;
 	cursor: pointer;
 	transition: 0.5s;
 }
