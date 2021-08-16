@@ -37,8 +37,8 @@ li:last-child a {
 	padding-bottom: 1px;
 }
 img.logo_ini {
-	height: 32px;
-	width: 32px;
+	height: 35px;
+	width: 35px;
 	/*position: relative;
 	bottom: 50px;*/
 }
@@ -60,7 +60,7 @@ div.slider {
 	height: 575px;
 	margin: 0;
 	background-size: cover;
-	background-image: url("img/slider_img2.jpg");
+	background-image: url("img/slider_img.jpg");
 }
 h1 {
 	font-family: "Roboto", sans-serif;
@@ -84,26 +84,91 @@ button.slider_botao {
 }
 #vantagens {
 	padding-top: 25px;
-	height: 675px;
-	background-size: 1360px;
+	padding-bottom: 50px;
+	height: auto;
+	background-size: cover;
 	background-image: url("img/vantagens_bg.jpeg");
 }
 .block_1 {
 	background-color: #d2ca97;
 	box-shadow: 5px 5px;
-	margin-right: 100px;
-	padding-left: 50px;
+	margin: 0px auto 100px auto;
+	width: 70%;
+	text-align: center;
+}
+.block_1::after {
+	content: "";
+	clear: both;
+	display: table;
 }
 .block_1 p {
 	font-size: 24px;
 }
 .block_1 img {
-	height: 128px;
 	float: left;
-	margin-right: 25px;
-	margin-bottom: 70px;
+	padding-left: 10px;
+	margin-bottom: auto;
+}
+.block_2 {
+	background-color: #bbb0a5;
+	box-shadow: 5px 5px;
+	margin: 0px auto 100px auto;
+	width: 70%;
+	text-align: center;
+}
+.block_2::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.block_2 p {
+	font-size: 24px;
+}
+.block_2 img {
+	float: right;
+	padding-right: 10px;
+	margin-bottom: auto;
+}
+.block_3 {
+	background-color: #e9e8e5;
+	box-shadow: 5px 5px;
+	margin: 0px auto 0px auto;
+	width: 70%;
+	text-align: center;
+}
+.block_3::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.block_3 p {
+	font-size: 24px;
+}
+.block_3 img {
+	float: left;
+	padding-left: 10px;
+	margin-bottom: auto;
 }
 .block_hd {
 	font-size: 25px;
 }
+.opt {
+	text-align: center;
+	height: auto;
+	padding-bottom: 50px;
+	background: rgb(187, 176, 165);
+	background: linear-gradient(
+		0deg,
+		rgba(187, 176, 165, 1) 25%,
+		rgba(249, 249, 249, 1) 75%
+	);
+}
+.opt h1,
+.opt h2 {
+	color: #000000;
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+	margin-top: 0;
+	padding-top: 20px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
