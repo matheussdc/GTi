@@ -1,7 +1,7 @@
 # GTi
 Repositório contendo:
 - Arquivo HTML
-- Arquivo CSS
+- Arquivo css
 - Link para Canva
 - Arquivos de inages
 - (Javascript já já...)
